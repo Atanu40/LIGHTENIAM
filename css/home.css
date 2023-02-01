@@ -135,6 +135,32 @@
     
 }*/
 
+/* section 03*/
+
+.section03-full-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section03-button{
+    width: 200px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.section03-button:hover{
+    background-color: antiquewhite;
+}
 
 
 
