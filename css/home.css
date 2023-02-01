@@ -1,3 +1,4 @@
+/*SESSION 01*/
 /* carousel */
 .carousel-text {
     position: absolute !important;
@@ -7,8 +8,8 @@
     transform: translate(-50%, -40%) !important;
 }
 
-.caro-img{
-    
+.caro-img {
+
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -71,9 +72,71 @@
 .button1:hover {
     background-color: antiquewhite;
 }
+
 .button2:hover {
     background-color: rgb(102, 100, 98);
 }
+
+/*SESSION 02*/
+
+.section02-full-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    /*position: relative;*/
+    margin-top: 45px;
+}
+
+.section02-full-container .section02-card-container {
+    display: flex;
+    flex-direction: column;
+    transition: transform 5s;
+}
+
+.section02-card-img {
+
+    transition: transform 5s;
+}
+
+.section02-card-img :hover {
+    transform: scale(0.75);
+
+
+}
+
+.section-02-card-text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*.section02-card-img .position{
+    position: relative;
+}*/
+
+/*
+.button3 {
+    width: 200px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #000000;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+    position: absolute;
+    top: 150px;
+    left: 470px;
+    visibility: hidden;
+    
+    
+}*/
+
+
+
 
 /*RESPONSIVE FOR SMALL MOBILE PHONE*/
 @media only screen and (max-width:576px) {
@@ -88,11 +151,11 @@
     }
 
     .carousel-text p {
-        
+
         font-weight: 10;
         font-size: 15px;
         margin-top: 29px;
-       
+
     }
 
     .carousel-text h3 {
@@ -102,7 +165,7 @@
         font-size: 27.33px;
         line-height: 50px;
         text-align: justify;
-        
+
         color: #FFFFFF;
 
     }
@@ -112,57 +175,92 @@
         height: 61%;
         padding: 0px 32px;
         margin-bottom: 20px;
-        
-       
     }
-    
+
     .button2 {
         width: 100%;
         height: 61%;
         padding: 0px 32px;
         margin-bottom: 20px;
-       
-    
-       
     }
 
-  
+
+    /* Session 02*/
+
+    .section02-full-container {
+
+        grid-template-columns: repeat(1, 1fr) !important;
+
+
+
+    }
+
 }
 
+/* Responsive for medium mobile */
+
 @media only screen and (min-width:577px) and(max-width:768px) {
+
+    /* carousel */
+
     .carousel-text {
         position: absolute !important;
         top: 50% !important;
-    
+
         left: 80% !important;
         transform: translate(-50%, -80%) !important;
     }
 
+
+    .carousel-text p {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 20;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center !important;
+        /* identical to box height */
+
+        letter-spacing: 0.05em;
+
+        color: #FFFFFF;
+    }
+
+    .carousel-text h5 {
+        font-family: 'Century Gothic';
+        font-style: normal;
+        font-weight: 70;
+        font-size: 27.33px;
+        line-height: 50px;
+
+        color: #FFFFFF;
+
+    }
+
+    /* Session 02*/
+
+    .section02-full-container {
+
+        grid-template-columns: repeat(1, 1fr) !important;
+
+    }
+
     
-.carousel-text p {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 20;
-    font-size: 16px;
-    line-height: 22px;
-  text-align: center !important;
-    /* identical to box height */
-
-    letter-spacing: 0.05em;
-
-    color: #FFFFFF;
 }
 
-.carousel-text h5 {
-    font-family: 'Century Gothic';
-    font-style: normal;
-    font-weight: 70;
-    font-size: 27.33px;
-    line-height: 50px;
+/* Responsive for large device */
 
-    color: #FFFFFF;
+@media only screen and (min-width:769px) and(max-width:992px) {
+
+    /* Session 02*/
+
+    .section02-full-container {
+
+        grid-template-columns: repeat(2, 1fr) !important;
+
+
+
+    }
+
 
 }
-}
-
-@media only screen and (min-width:769px) and(max-width:992px) {}
