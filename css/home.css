@@ -280,6 +280,256 @@
 }
 */
 
+
+/*------------------------
+
+        Footer
+
+--------------------------*/
+
+.footer-full-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 45px;
+    column-gap: 40px;
+    margin-bottom: 25px;
+}
+
+/*----------------
+
+    COLUMN 01
+------------------*/
+
+.footer-full-container .footer-container-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-full-container .footer-container-01 .footer-container-01-para-1 p {
+    width: 123px;
+    height: 22px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.footer-full-container .footer-container-01 .footer-container-01-para-2 p {
+    width: 423px;
+    height: 66px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.footer-full-container .footer-container-01 .footer-container-01-para-3 p {
+    width: 360px;
+    height: 22px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.footer-container-01-icons {
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer-container-01-icons .a  i:hover{
+    background-color: beige;
+}
+.footer-container-01-icons .b  i:hover{
+    background-color: beige;
+}
+.footer-container-01-icons .c  i:hover{
+    background-color: beige;
+}
+.footer-container-01-icons .d  i:hover{
+    background-color: beige;
+}
+
+
+/*-----------
+  column 2
+------------*/
+.footer-full-container .footer-container-02 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-full-container .footer-container-02 .footer-container-02-para-01 {
+    width: 197px;
+    height: 22px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.footer-full-container .footer-container-02 .footer-container-02-list ul {
+    list-style: none;
+    text-align: justify;
+    padding-left: 0px;
+    margin-top: 15px;
+}
+
+.footer-full-container .footer-container-02 .footer-container-02-list ul li {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+/*---------------
+
+ column 03
+
+----------------*/
+
+.footer-full-container .footer-container-03 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-full-container .footer-container-03 .footer-container-03-para-01 {
+    width: 197px;
+    height: 22px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.footer-full-container .footer-container-03 .footer-container-03-list ul {
+    list-style: none;
+    text-align: justify;
+    padding-left: 0px;
+    margin-top: 15px;
+}
+
+.footer-full-container .footer-container-03 .footer-container-03-list ul li {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+/*----------
+ Column 04
+------------*/
+
+.footer-full-container .footer-container-04 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-full-container .footer-container-04 .footer-container-04-para-1 p {
+    width: 143px;
+    height: 22px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.footer-full-container .footer-container-04 .footer-container-04-para-2 p {
+    width: 360px;
+    height: 22px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.footer-full-container .footer-container-04 .footer-container-04-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+
+.footer-full-container .footer-container-04 .footer-container-04-form.footer-container-04-form-input {
+    width: 306px;
+    height: 48px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+
+
+}
+
+.footer-full-container .footer-container-04 .footer-container-04-form.footer-container-04-form-input::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.33px;
+    line-height: 18px;
+    width: 146px;
+    height: 18px;
+    color: rgba(0, 0, 0, 0.8);
+
+
+}
+
+
+
+.footer-full-container .footer-container-04 .footer-container-04-form .footer-container-04-form-submit {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.33px;
+    line-height: 18px;
+    margin-top: 15px;
+    color: #FFFFFF;
+
+
+}
+
 /*RESPONSIVE FOR SMALL MOBILE PHONE*/
 @media only screen and (max-width:576px) {
 
@@ -380,6 +630,104 @@
         width: 100%;
         height: 100%;
         margin-top: 15px;
+    }
+
+
+
+
+
+
+    /*------------------------
+
+        Footer
+
+    --------------------------*/
+
+    .footer-full-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    /*----------------
+
+    COLUMN 01
+    ------------------*/
+
+    .footer-full-container .footer-container-01 .footer-container-01-para-1 p {
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+    }
+
+    .footer-full-container .footer-container-01 .footer-container-01-para-2 p {
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+    }
+
+    .footer-full-container .footer-container-01 .footer-container-01-para-3 p {
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+    }
+
+
+    /*-----------
+      column 2
+   ------------*/
+
+
+    .footer-full-container .footer-container-02 .footer-container-02-para-01 {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    /*---------------
+
+ column 03
+
+----------------*/
+
+
+
+    .footer-full-container .footer-container-03 .footer-container-03-para-01 {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+
+    /*----------
+ Column 04
+------------*/
+
+
+
+    .footer-full-container .footer-container-04 .footer-container-04-para-1 p {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .footer-full-container .footer-container-04 .footer-container-04-para-2 p {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+
+
+    .footer-full-container .footer-container-04 .footer-container-04-form.footer-container-04-form-input {
+        width: 100%;
+        height: 100%;
+
+
+
     }
 
 
@@ -486,6 +834,100 @@
         height: 100%;
         margin-top: 15px;
     }
+
+
+    /*------------------------
+
+        Footer
+
+    --------------------------*/
+
+    .footer-full-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*----------------
+
+    COLUMN 01
+    ------------------*/
+
+    .footer-full-container .footer-container-01 .footer-container-01-para-1 p {
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+    }
+
+    .footer-full-container .footer-container-01 .footer-container-01-para-2 p {
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+    }
+
+    .footer-full-container .footer-container-01 .footer-container-01-para-3 p {
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+    }
+
+
+    /*-----------
+      column 2
+   ------------*/
+
+
+    .footer-full-container .footer-container-02 .footer-container-02-para-01 {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    /*---------------
+
+ column 03
+
+----------------*/
+
+
+
+    .footer-full-container .footer-container-03 .footer-container-03-para-01 {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+
+    /*----------
+ Column 04
+------------*/
+
+
+
+    .footer-full-container .footer-container-04 .footer-container-04-para-1 p {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .footer-full-container .footer-container-04 .footer-container-04-para-2 p {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+
+
+    .footer-full-container .footer-container-04 .footer-container-04-form.footer-container-04-form-input {
+        width: 100%;
+        height: 100%;
+
+
+
+    }
+
 
 
 
