@@ -1,384 +1,468 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>LIGHTENIAM</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/home.css" />
 
     <!--Box Icons Font CDN LINK-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <!--Header part-->
-    <header class="container-fluid ">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./images/genesyslogo.png" alt="Logo" width="176" height="40"
-                        class="d-inline-block align-text-top">
-
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./images/genesyslogo.png"
+              alt="Logo"
+              width="176"
+              height="40"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll mx-auto"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link me-4" aria-current="page" href="/index.html"
+                  >Home
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll mx-auto "
-                        style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link me-4" aria-current="page" href="#">Home </a>
-                        </li>
-                        <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle me-4" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Shop
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item bg-primary-subtle" href="#">SubMenu1</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item bg-primary-subtle" href="#">SubMenu2</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item bg-primary-subtle " href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link me-4" href="#">About</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link me-4" href="#">Blog </a>
-                        </li>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle me-4"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item bg-primary-subtle" href="#"
+                      >SubMenu1</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item bg-primary-subtle" href="#"
+                      >SubMenu2</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item bg-primary-subtle" href="#"
+                      >Something else here</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="#">Blog </a>
+              </li>
+            </ul>
 
+            <button
+              class="btn btn-light text-dark me-2"
+              data-bs-target="#exampleModal"
+              type="button"
+            >
+              <a class="text-dark" href="/login.html">
+                <i class="bx bx-user"></i>
+              </a>
+            </button>
 
-                    </ul>
+            <button
+              class="btn btn-light text-dark me-2"
+              data-bs-target="#exampleModal"
+              type="button"
+            >
+              <i class="bx bx-search"></i>
+            </button>
 
-                    <button class="btn btn-light text-dark me-2 " data-bs-target="#exampleModal" type="button">
-
-                        <a class="text-dark" href="https://github.com/Atanu40">
-                            <i class='bx bx-user'></i>
-                        </a>
-
-
-                    </button>
-
-                    <button class="btn btn-light text-dark me-2" data-bs-target="#exampleModal" type="button">
-                        <i class='bx bx-search'></i>
-
-                    </button>
-
-                    <button class="btn btn-light text-dark" data-bs-target="#exampleModal" type="button">
-                        <i class='bx bx-cart icon'></i>
-
-                    </button>
-
-
-                </div>
-            </div>
-        </nav>
-
-
-
-
+            <button
+              class="btn btn-light text-dark"
+              data-bs-target="#exampleModal"
+              type="button"
+            >
+              <i class="bx bx-cart icon"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--Main part-->
     <main>
+      <!--Section 01-->
 
-        <!--Section 01-->
+      <section class="se-1">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-touch="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./images/banner.png" class="caro-img" alt="..." />
+              <div class="carousel-text">
+                <p>ORGINAL SMOOTHIES</p>
+                <h5>Make the Most of Morning</h5>
 
-        <section>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-touch="false">
+                <div class="d-flex" style="gap: 10px">
+                  <div>
+                    <a href="#" class="button1">Learn More</a>
+                  </div>
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="./images/banner.png" class="caro-img" alt="...">
-                        <div class="carousel-text">
-                            <p>ORGINAL SMOOTHIES</p>
-                            <h5>Make the Most of Morning</h5>
-
-                            <div class="d-flex " style="gap: 10px;">
-                                <div>
-                                    <a href="#" class="button1">Learn More</a>
-                                </div>
-
-                                <div>
-                                    <a href="#" class="button2">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./images/banner.png" class="caro-img" alt="...">
-                        <div class="carousel-text">
-                            <p>ORGINAL SMOOTHIES</p>
-                            <h5>Make the Most of Morning</h5>
-
-                            <div class="d-flex " style="gap: 10px;">
-                                <div>
-                                    <a href="#" class="button1">Learn More</a>
-                                </div>
-
-                                <div>
-                                    <a href="#" class="button2">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/banner.png" class="caro-img" alt="...">
-                        <div class="carousel-text">
-                            <p>ORGINAL SMOOTHIES</p>
-                            <h5>Make the Most of Morning</h5>
-
-                            <div class="d-flex " style="gap: 10px;">
-                                <div>
-                                    <a href="#" class="button1">Learn More</a>
-                                </div>
-
-                                <div>
-                                    <a href="#" class="button2">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <div>
+                    <a href="#" class="button2">Shop Now</a>
+                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon btn btn-primary" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon btn btn-primary" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+              </div>
             </div>
-        </section>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/banner.png" class="caro-img" alt="..." />
+              <div class="carousel-text">
+                <p>ORGINAL SMOOTHIES</p>
+                <h5>Make the Most of Morning</h5>
 
-        <!--Section 02-->
+                <div class="d-flex" style="gap: 10px">
+                  <div>
+                    <a href="#" class="button1">Learn More</a>
+                  </div>
 
-        <section class="section02-full-container">
-            <div class="section02-card-container">
-                <div class="section02-card-img">
-                    <img src="./images/Group 9.png" alt="">
+                  <div>
+                    <a href="#" class="button2">Shop Now</a>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/banner.png" class="caro-img" alt="..." />
+              <div class="carousel-text">
+                <p>ORGINAL SMOOTHIES</p>
+                <h5>Make the Most of Morning</h5>
 
-                <div class="section-02-card-text">
-                    <p>Ginger Grapefruit</p>
-                    <p>$4.00 USD</p>
+                <div class="d-flex" style="gap: 10px">
+                  <div>
+                    <a href="#" class="button1">Learn More</a>
+                  </div>
+
+                  <div>
+                    <a href="#" class="button2">Shop Now</a>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon btn btn-primary"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon btn btn-primary"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!--Section 02-->
+
+      <section class="section02-full-container">
+        <div class="section02-card-container">
+          <div class="section02-card-img">
+            <img class="prd-img" src="./images/Group 9.png" alt="" />
+            <a href="#" class="btn-prod">Quick View</a>
+          </div>
+
+          <div class="section-02-card-text">
+            <p>Ginger Grapefruit</p>
+            <p>$4.00 USD</p>
+          </div>
+        </div>
+
+        <div class="section02-card-container">
+          <div class="section02-card-img">
+            <a href="#" class="btn-prod">Quick View</a>
+            <img class="prd-img" src="./images/Group 7.png" alt="" />
+          </div>
+
+          <div class="section-02-card-text">
+            <p>Grapefruit and Cinamon</p>
+            <p>
+              $4.00 USD
+              <span
+                class="text-decoration-line-through section-02-card-text-cut"
+                >$5.00 USD</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="section02-card-container">
+          <div class="section02-card-img">
+            <a href="#" class="btn-prod">Quick View</a>
+            <img class="prd-img" src="./images/Group 9.png" alt="" />
+          </div>
+
+          <div class="section-02-card-text">
+            <p>Ginger Grapefruit</p>
+            <p>$4.00 USD</p>
+          </div>
+        </div>
+
+        <div class="section02-card-container">
+          <div class="section02-card-img">
+            <a href="#" class="btn-prod">Quick View</a>
+            <img class="prd-img" src="./images/Rectangle 6.png" alt="" />
+          </div>
+
+          <div class="section-02-card-text">
+            <p>Ginger Grapefruit</p>
+            <p>$4.00 USD</p>
+          </div>
+        </div>
+      </section>
+
+      <!--Section 03-->
+
+      <section class="section03-full-container">
+        <div class="section03-full-container-div">
+          <a href="#" class="section03-button">View All</a>
+        </div>
+      </section>
+
+      <!--Section 04-->
+
+      <section class="section04-full-container">
+        <!--Left Part-->
+
+        <div class="section04-right-img">
+          <div
+            class="section04-right-img-container-1"
+            style="position: relative"
+          >
+            <img src="./images/Rectangle 9.png" alt="" />
+
+            <div class="grid-txt-1">
+              <h6>Juices</h6>
+              <p>
+                This smoothie totally changed my world. Our juices are made from
+                the freshest fruits and natural ingredients.
+              </p>
+
+              <div class="button5" style="position: absolute">
+                <a href="#">Shop Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="section04-right-img-container-2">
+            <div
+              class="section04-right-img-container-2-img-1"
+              style="position: relative"
+            >
+              <img src="./images/Rectangle 10.png" alt="" />
+              <div class="grid-txt-2">
+                <h6>Smoothies</h6>
+                <p>Very good for a Saturday morning breakfast!</p>
+
+                <div class="button6" style="position: absolute">
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
             </div>
 
-            <div class="section02-card-container">
+            <div
+              class="section04-right-img-container-2-img-2"
+              style="position: relative"
+            >
+              <img src="./images/Rectangle 11.png" alt="" />
 
-                <div class="section02-card-img">
-                    <!--<a href="#" class="button3">Quick View</a>-->
-                    <img class="position" src="./images/Group 7.png" alt="">
+              <div class="grid-txt-3">
+                <h6>Shakes</h6>
+                <p>
+                  Weirdly really good. These flavors work really well together.
+                </p>
 
+                <div class="button7" style="position: absolute">
+                  <a href="#">Shop Now</a>
                 </div>
-
-
-                <div class="section-02-card-text">
-                    <p>Grapefruit and Cinamon</p>
-                    <p>$4.00 USD <span class="text-decoration-line-through section-02-card-text-cut">$5.00 USD</span>
-                    </p>
-                </div>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <div class="section02-card-container">
-                <div class="section02-card-img">
-                    <img src="./images/Group 9.png" alt="">
-                </div>
+        <!--Right Part-->
 
-                <div class="section-02-card-text">
-                    <p>Ginger Grapefruit</p>
-                    <p>$4.00 USD</p>
-                </div>
+        <div class="section04-left-img" style="position: relative">
+          <img src="./images/Rectangle 8 .png" alt="" />
+
+          <div class="grid-txt">
+            <h6>Seasonal Favorites</h6>
+            <p>
+              The best of fresh, seasonal ingredients create healthy and
+              satisfying breakfast smoothies all year round. Spring is here,
+              which means we're harvesting fresh fruits and veggies for our
+              seasonal favorites!
+            </p>
+
+            <div class="button4">
+              <a href="#">Learn More</a>
             </div>
-
-            <div class="section02-card-container">
-                <div class="section02-card-img">
-                    <img src="./images/Rectangle 6.png" alt="">
-                </div>
-
-                <div class="section-02-card-text">
-                    <p>Ginger Grapefruit</p>
-                    <p>$4.00 USD</p>
-                </div>
-            </div>
-
-        </section>
-
-        <!--Section 03-->
-
-        <section class="section03-full-container">
-            <div>
-                <a href="#" class="section03-button">View All</a>
-            </div>
-        </section>
-
-        <!--Section 04-->
-
-        <section class="section04-full-container">
-
-
-            <!--Left Part-->
-
-            <div class="section04-right-img">
-                <div class="section04-right-img-container-1">
-                    <img src="./images/Rectangle 9.png" alt="">
-                </div>
-
-                <div class="section04-right-img-container-2">
-                    <div class="section04-right-img-container-2-img-1">
-                        <img src="./images/Rectangle 10.png" alt="">
-                    </div>
-
-                    <div class="section04-right-img-container-2-img-2">
-                        <img src="./images/Rectangle 11.png" alt="">
-                    </div>
-                </div>
-            </div>
-
-
-            <!--Right Part-->
-
-            <div class="section04-left-img">
-                <img src="./images/Rectangle 8 .png" alt="">
-
-                <!-- <div class="text">
-                    <h6>Seasonal Favorites</h6>
-                    <p>The best of fresh, seasonal ingredients create healthy and satisfying breakfast smoothies all year round. Spring is here, which means we're harvesting fresh fruits and veggies for our seasonal favorites!</p>
-
-                    <div class="d-flex " style="gap: 10px;">
-                        <div>
-                            <a href="#" class="button5">Learn More</a>
-                        </div>
-
-                        
-                    </div>-->
-
-            </div>
-
-
-
-            </div>
-        </section>
-
+          </div>
+        </div>
+      </section>
     </main>
-
 
     <!--Footer part-->
 
-    <footer class="footer-full-container container ">
-
-        <div class="footer-container-01">
-            <div class="footer-container-01-para-1">
-                <p>About your store</p>
-            </div>
-
-            <div class="footer-container-01-para-2">
-                <p>We dare to be different and we invite you to do the same.
-                    We'd love you to join us on this colourful adventure of being
-                    you. You are here to be yourself. Fully and unapologetically.</p>
-            </div>
-
-            <div class="footer-container-01-para-3">
-                <p>Now, let's show to the world what we are made of!</p>
-            </div>
-
-            <div class="footer-container-01-icons">
-
-                <div class="a">
-                    <i class='bx bxl-instagram'></i>
-                </div>
-                <div class="b">
-                    <i class='bx bxl-facebook'></i>
-                </div>
-                <div class="c">
-                    <i class='bx bxl-twitter'></i>
-                </div>
-                <div class="d">
-                    <i class='bx bxl-pinterest-alt'></i>
-                </div>
-            </div>
+    <footer class="footer-full-container" style="background-color: #dadada">
+      <div class="footer-container-01">
+        <div class="footer-container-01-para-1">
+          <p>About your store</p>
         </div>
 
-        <div class="footer-container-02">
-
-            <div class="footer-container-02-para-01">
-                <h5>Helpful Links</h5>
-            </div>
-
-            <div class="footer-container-02-list">
-                <ul>
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>About</li>
-                    <li>Blog</li>
-                </ul>
-
-            </div>
-
+        <div class="footer-container-01-para-2">
+          <p class="fs-14">
+            We dare to be different and we invite you to do the same. We'd love
+            you to join us on this colourful adventure of being you. You are
+            here to be yourself. Fully and unapologetically.
+          </p>
         </div>
 
-        <div class="footer-container-03">
-
-            <div class="footer-container-03-para-01">
-                <h5>Quick Shop</h5>
-            </div>
-
-            <div class="footer-container-03-list">
-                <ul>
-                    <li>Blended Smoothies</li>
-                    <li>Juices</li>
-                    <li>Original Smoothies</li>
-                    <li>Seasonal Favorites</li>
-                </ul>
-
-            </div>
-
-
+        <div class="footer-container-01-para-3">
+          <p class="fs-14">Now, let's show to the world what we are made of!</p>
         </div>
 
-        <div class="footer-container-04">
-            <div class="footer-container-04-para-1">
-                <p>Let's stay in touch</p>
-            </div>
-
-            <div class="footer-container-04-para-2">
-                <p>Sign up for exclusive offers, original stories,events and more.</p>
-            </div>
-
-            <div class="footer-container-04-form">
-
-                <div class="footer-container-04-form-input">
-                    <input type="text" placeholder="Enter your email address">
-                </div>
-
-                <div class="footer-container-04-form-submit ">
-                    <a href="#" class="button2">Subscribe</a>
-                </div>
-
-            </div>
-
+        <div class="footer-container-01-icons">
+          <div class="a">
+            <i class="bx bxl-instagram"></i>
+          </div>
+          <div class="b">
+            <i class="bx bxl-facebook"></i>
+          </div>
+          <div class="c">
+            <i class="bx bxl-twitter"></i>
+          </div>
+          <div class="d">
+            <i class="bx bxl-pinterest-alt"></i>
+          </div>
         </div>
+      </div>
+
+      <div class="footer-container-02">
+        <div class="footer-container-02-para-01">
+          <p>Helpful Links</p>
+        </div>
+
+        <div class="footer-container-02-list">
+          <ul>
+            <li class="fs-14">Home</li>
+            <li class="fs-14">Shop</li>
+            <li class="fs-14">About</li>
+            <li class="fs-14">Blog</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-container-03">
+        <div class="footer-container-03-para-01">
+          <p>Quick Shop</p>
+        </div>
+
+        <div class="footer-container-03-list">
+          <ul>
+            <li class="fs-14">Blended Smoothies</li>
+            <li class="fs-14">Juices</li>
+            <li class="fs-14">Original Smoothies</li>
+            <li class="fs-14">Seasonal Favorites</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-container-04">
+        <div class="footer-container-04-para-1">
+          <p>Let's stay in touch</p>
+        </div>
+
+        <div class="footer-container-04-para-2">
+          <p class="fs-14">
+            Sign up for exclusive offers, original stories,events and more.
+          </p>
+        </div>
+
+        <div class="footer-container-04-form">
+          <div class="footer-container-04-form-input">
+            <input
+              style="padding: 6px"
+              type="text"
+              placeholder="Enter your email address"
+            />
+          </div>
+
+          <div class="footer-container-04-form-submit">
+            <a href="#" class="button2">Subscribe</a>
+          </div>
+        </div>
+      </div>
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
